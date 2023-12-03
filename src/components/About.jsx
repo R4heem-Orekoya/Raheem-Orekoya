@@ -57,7 +57,7 @@ const About = () => {
               </div>
             </div>
 
-            <a href="#">
+            <a aria-label="Raheem's Resume download link" href="#">
               <button className='mt-8 px-8 py-4 flex items-center gap-2 bg-violet-600 rounded-lg hover:bg-violet-800 transition duration-300 font-semibold'>
                 <FileDown size={20} strokeWidth={2}/>
                 Download CV

@@ -27,7 +27,7 @@ const Hero = () => {
                Send me the details of your project for a modern, mobile responsive, 
                highly performant website now!
           </p>
-          <a href="#">
+          <a aria-label="Chat on WhatsApp" href="https://wa.me/07014722761">
                <button className='font-semibold px-8 py-4 rounded-lg mt-6 bg-violet-600 hover:bg-violet-800 transition duration-300'>Let's Talk!</button>
           </a>
      <Socials />

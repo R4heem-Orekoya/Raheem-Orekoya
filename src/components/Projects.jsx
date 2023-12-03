@@ -33,7 +33,7 @@ const Projects = () => {
                               is special to me because it's the first project i built after 
                               learning react.
                          </p>
-                         <a href="https://r4heem-orekoya.github.io/React-Quiz-App/" className='flex items-center gap-2 text-lg font-medium hover:underline underline-offset-4'>
+                         <a aria-label="Link to Raheem's quiz application" href="https://r4heem-orekoya.github.io/React-Quiz-App/" className='flex items-center gap-2 text-lg font-medium hover:underline underline-offset-4'>
                               <Radio className='stroke-red-600'/>
                               Go Live
                          </a>
@@ -56,7 +56,7 @@ const Projects = () => {
                               It basically summarize lengthy articles into clear and concise summaries, all
                               you have to do is paste the link of the article.
                          </p>
-                         <a href="https://redoxx-ai-summarizer.vercel.app/" className='flex items-center gap-2 text-lg font-medium hover:underline underline-offset-4'>
+                         <a aria-label="Link to Raheem's ai summarizer" href="https://redoxx-ai-summarizer.vercel.app/" className='flex items-center gap-2 text-lg font-medium hover:underline underline-offset-4'>
                               <Radio className='stroke-red-600'/>
                               Go Live
                          </a>
@@ -78,7 +78,7 @@ const Projects = () => {
                               This is also a react project which i built just for fun, i used a headless cms called sanity 
                               to handle the contents of the site and i also integrated payment gateway with stripe.
                          </p>
-                         <a href="https://redoxx-store-xgtl.vercel.app/" className='flex items-center gap-2 text-lg font-medium hover:underline underline-offset-4'>
+                         <a aria-label="Link to redoxx-store" href="https://redoxx-store-xgtl.vercel.app/" className='flex items-center gap-2 text-lg font-medium hover:underline underline-offset-4'>
                               <Radio className='stroke-red-600'/>
                               Go Live
                          </a>
@@ -101,7 +101,7 @@ const Projects = () => {
                               it has 3 theme mode which a user can switch between and it does 
                               basic arithmetic like every other normal calculator.
                          </p>
-                         <a href="https://r4heem-orekoya.github.io/Calcultor-FEM/" className='flex items-center gap-2 text-lg font-medium hover:underline underline-offset-4'>
+                         <a aria-label="Link to Raheem's calculator app" href="https://r4heem-orekoya.github.io/Calcultor-FEM/" className='flex items-center gap-2 text-lg font-medium hover:underline underline-offset-4'>
                               <Radio className='stroke-red-600'/>
                               Go Live
                          </a>
