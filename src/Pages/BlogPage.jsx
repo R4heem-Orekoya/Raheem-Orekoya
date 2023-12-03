@@ -8,8 +8,8 @@ const BlogPage = () => {
   const { blogs, loading, error } = useContext(BlogContext)
 
   if (loading) {
-    return <div className='h-[calc(100vh-80px)] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-16 '>
-        <div className='p-0 overflow-hidden'>
+    return <div className='min-h-[calc(100vh-80px)] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-16 '>
+        <div className='p-0 '>
           <SkeletonTheme baseColor="#1a1d24" highlightColor="#2C2F38">
             <div>
               <Skeleton className='aspect-video rounded-b-none rounded-t-lg'/>
