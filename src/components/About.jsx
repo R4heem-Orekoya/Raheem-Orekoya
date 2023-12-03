@@ -52,7 +52,7 @@ const About = () => {
                 <p className='text-xs'>20+ completed projects</p>
               </div>
               <div className='h-[70px] flex flex-col justify-center px-4 rounded-lg border-l-8 border-violet-600 bg-[#0F1117]'>
-                <h5 className='font-semibold mb-1'>Skills</h5>
+                <h5 className='font-semibold mb-1'>Clients</h5>
                 <p className='text-xs'>20+ Happy Clients</p>
               </div>
             </div>
