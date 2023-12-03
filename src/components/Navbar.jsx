@@ -1,8 +1,14 @@
-import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import React, { useState, useEffect } from 'react'
+import { Link, useLocation } from 'react-router-dom'
 
 const Navbar = () => {
      const [isNavOpen, setIsNavOpen] = useState(false)
+     const { pathname } = useLocation();
+     const url = pathname
+
+     useEffect(() => {
+          setIsNavOpen(false)
+     }, [url])
   return (
     <header className='sticky top-0 z-50 w-screen bg-black/50 backdrop-blur-md border-b-2 border-slate-400/10'>
       <nav className='w-[min(1400px,90%)] h-20 mx-auto flex justify-between items-center'>

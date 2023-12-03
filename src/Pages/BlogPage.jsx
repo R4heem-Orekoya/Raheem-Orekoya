@@ -50,7 +50,7 @@ const BlogPage = () => {
 
   if(error){
     return (
-      <div className='h-[calc(100vh-80px)] mt-16'>
+      <div className='h-[calc(100vh-80px)] py-16'>
         <p className='text-xl md:text-2xl text-red-400 text-center'>{error}! 😒</p>
       </div>
     )
