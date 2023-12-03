@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import Skeleton, { SkeletonTheme } from 'react-loading-skeleton'
 import 'react-loading-skeleton/dist/skeleton.css'
 import BlogCard from '../components/BlogCard'
-import BlogContext from '../context/blogContext'
+import BlogContext from '../context/BlogContext'
 
 const BlogPage = () => {
   const { blogs, loading, error } = useContext(BlogContext)

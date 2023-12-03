@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { useParams } from 'react-router-dom'
-import BlogContext from '../context/blogContext'
+import BlogContext from '../context/BlogContext'
 import { urlFor } from '../lib/client'
 import { PortableText } from '@portabletext/react'
 import CodeBlock from '../components/CodeBlock'
